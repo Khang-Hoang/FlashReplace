@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/DEV/FlashReplace/main.cpp
+iostream
+-
+dirent.h
+-
+string
+-
+vector
+-
+cstring
+-
+fstream
+-
+sstream
+-
+sys/stat.h
+-
+sys/types.h
+-
+errno.h
+-
+
